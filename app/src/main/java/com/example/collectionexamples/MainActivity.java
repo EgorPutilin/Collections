@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private HashMap<Integer, Cat> catHashMap() {
         HashMap<Integer, Cat> mapCats = new HashMap<>();
         for (int i = 0; i < 10; i++) {
-            mapCats.put(i, new Cat("Mike",(int) (Math.random() * 10)));
+            mapCats.put(i, new Cat("Mike", (int) (Math.random() * 10)));
         }
         return mapCats;
     }
@@ -68,4 +68,9 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("Max Cats age is " + helper);
     }
 
+    private void pint3(HashMap<Integer, Cat> cats) {
+        for (int i = 0; i < cats.size(); i++) {
+            System.out.println("Cat name: "+ cats.get(i).getName());
+        }
+    }
 }
