@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private HashMap<Integer, Cat> catHashMap() {
         HashMap<Integer, Cat> mapCats = new HashMap<>();
         for (int i = 0; i < 10; i++) {
-            mapCats.put(i, new Cat("Mike",(int) (Math.random() * 10)));
+            mapCats.put(i, new Cat("Mike", (int) (Math.random() * 10)));
         }
         return mapCats;
     }
