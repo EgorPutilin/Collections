@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("Max Cats age is " + helper);
     }
 
-    private void pint3(HashMap<Integer, Cat> cats) {
+    private void print3(HashMap<Integer, Cat> cats) {
         for (int i = 0; i < cats.size(); i++) {
             System.out.println("Cat name: "+ cats.get(i).getName());
         }
