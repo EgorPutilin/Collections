@@ -68,4 +68,10 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("Max Cats age is " + helper);
     }
 
+    private void print2(ArrayList<Cat> cats) {
+        for (Cat cat: cats) {
+            System.out.println("Cat name: " + cat.getName());
+        }
+    }
+
 }
